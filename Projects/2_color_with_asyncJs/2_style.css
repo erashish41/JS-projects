@@ -1,0 +1,27 @@
+nav{
+    background-color: #ffffff;
+    height: 50px;
+    text-align: center;
+    display: flex;
+}
+nav a{
+    margin: 0 10px; 
+    padding: 5px 10px;
+    border: 1px solid black; 
+    height: 30px;
+    text-align: justify;
+    display: flex;
+    display: inline-block;
+}
+nav a:hover{
+    text-decoration: underline;
+}
+nav a[aria-current="page"] {
+    font-weight: bold;
+}
+nav a[href="/"] {
+    background-color: #f3de23;
+}
+nav a[href="https://www.youtube.com/@chaiaurcode"] {
+    background-color: #dfa60b;
+}
